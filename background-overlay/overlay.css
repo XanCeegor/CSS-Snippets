@@ -1,0 +1,22 @@
+/* Remove padding and margin. Optional */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Define our background overlay */
+.image-box {
+    height: 100vh;
+    width: 100%;
+
+    /* Overlay */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url('img/1.jpg') center center;
+    background-size: cover;
+  
+    /* Some style for the content that goes over the overlay */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
